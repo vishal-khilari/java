@@ -9,6 +9,7 @@ public class if_con {
         }
         else{
             System.out.println("Not an adult");
+            sc.close();
         }
     }
 }

@@ -15,6 +15,7 @@ public class switchs {
             System.out.println("BONJORE");
             break;
             default: System.out.println("INVALID EXPRESSION");
+            sc.close();
         }
     }
 }

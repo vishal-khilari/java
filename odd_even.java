@@ -9,6 +9,7 @@ public class odd_even {
         }
         else{
             System.out.println("ODD");
+            sc.close();
         }
     }
 }
