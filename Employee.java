@@ -35,7 +35,8 @@ public class Employee{
 
     public static void main(String[] args) {
         Employee emp = new Employee(1, "John Doe", 50000); 
-        System.out.println("Original Details:"); System.out.println(emp);
+        System.out.println("Original Details:"); 
+        System.out.println(emp);
         emp.raiseSalary(10); 
         System.out.println("\nAfter 10% Raise:"); 
         System.out.println(emp);
